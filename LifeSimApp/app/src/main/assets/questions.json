@@ -1,0 +1,401 @@
+[
+    {
+        "title": "Birth Scenario",
+        "description": "You're born into a loving and caring family of substantial means. Your parents offer you:",
+        "options": [
+            {
+                "text": "A lavish upbringing with the best education and comforts.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "A balanced upbringing with an emphasis on morals and values.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Neglectful parenting but freedom to explore and learn independently.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Early Education",
+        "description": "It's time to choose your educational path:",
+        "options": [
+            {
+                "text": "Attend an elite private school known for creating extremely successful individuals.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Enroll in a public school with diverse peers and experiences.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Pursue homeschooling to tailor your education to your interests.",
+                "wealth": -1,
+                "happiness": 1
+            }
+        ]
+    },
+    {
+        "title": "Career Decision",
+        "description": "You're starting your career journey. Which path do you choose?",
+        "options": [
+            {
+                "text": "Accept a high-paying, but stressful job at a prestigious company.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Follow your passion into a lower-paying but fulfilling career.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Pursue entrepreneurship for flexibility but uncertain income.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Retirement Planning",
+        "description": "Early in your career, you start thinking about retirement and the power of compound interest. Which do you choose?",
+        "options": [
+            {
+                "text": "Save diligently and max out your 401(k) for a comfortable retirement.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Focus on experiences and relationships, accepting a modest retirement lifestyle.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Neglect retirement planning and hope for the best. You like working anyhow.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Relationship Crossroads",
+        "description": "You meet someone special. How do you approach the relationship?",
+        "options": [
+            {
+                "text": "Settle down with a financially stable partner for security.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Follow your heart despite financial differences.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Focus on your own career, avoiding commitment.",
+                "wealth": 1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Financial Investment",
+        "description": "You come into some money from an inheritance. What do you do with it?",
+        "options": [
+            {
+                "text": "Invest in stocks and real estate for long-term financial growth.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Splurge on luxury items and experiences for immediate gratification.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Donate most of it to charity and invest in your community.",
+                "wealth": -1,
+                "happiness": 1
+            }
+        ]
+    },
+    {
+        "title": "Health and Wellness",
+        "description": "As you're getting older, it's time to prioritize your health:",
+        "options": [
+            {
+                "text": "Invest in a comprehensive health insurance plan and regular check-ups.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Embrace a healthy lifestyle with regular exercise and nutritious diet.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Continue to neglect health concerns and prioritize other aspects of life.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Family Planning",
+        "description": "You're considering starting a family:",
+        "options": [
+            {
+                "text": "Have 2 children, providing them with a stable and nurturing environment.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Have 10 children, which you love, but can't support properly.",
+                "wealth": -1,
+                "happiness": -1
+            },
+            {
+                "text": "Choose not to have children and focus on career advancement.",
+                "wealth": 1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Mid-career Crisis",
+        "description": "Your career hits a roadblock and you are not enjoying your job. How do you respond?",
+        "options": [
+            {
+                "text": "Seek career advancement opportunities or further education.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Embrace a career change or pursue a passion project with risk.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Accept the situation and try to push through without doing much.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Financial Setback",
+        "description": "Your house burns down, and you did not have homeowners insurance. This is a major financial setback. What are you going to do?",
+        "options": [
+            {
+                "text": "Tighten your budget and seek additional sources of income.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Draw on the retirement funds you have (if any), putting your future in jeopardy.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Take out risky loans to overcome the setback, potentially increasing debt.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Family Matters",
+        "description": "Your aging parents need constant care. What do you do?",
+        "options": [
+            {
+                "text": "Move them into your home and provide care yourself.",
+                "wealth": -1,
+                "happiness": -1
+            },
+            {
+                "text": "Hire professional caregivers to assist.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Place them in a high-quality assisted living facility.",
+                "wealth": 1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Social Commitments",
+        "description": "You're invited to multiple social events on the same evening. How do you respond?",
+        "options": [
+            {
+                "text": "Attend the charity gala and network with influential people.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Spend quality time with close friends at a low-key gathering.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Skip both and have a quiet night at home.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Relationship Decision",
+        "description": "You're torn between staying in a comfortable but stagnant relationship or pursuing something new",
+        "options": [
+            {
+                "text": "Commit to working on your current relationship.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "End the relationship and explore new possibilities.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Stay in the current relationship without addressing issues.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Investment Dilemma",
+        "description": "You have some extra money to invest",
+        "options": [
+            {
+                "text": "Invest in a high-risk, high-reward venture.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Invest in a stable but lower-returning opportunity.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Spend the money on something enjoyable but non-investment.",
+                "wealth": -1,
+                "happiness": 1
+            }
+        ]
+    },
+    {
+        "title": "Career Crossroads",
+        "description": "You're offered a promotion at work, but it requires relocating to another city",
+        "options": [
+            {
+                "text": "Accept the promotion.",
+                "wealth": 1,
+                "happiness": -1
+            },
+            {
+                "text": "Decline the promotion, but negotiate a raise.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Decline the promotion and stay in your current position.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Health Crisis",
+        "description": "You're diagnosed with a chronic illness. How do you respond?",
+        "options": [
+            {
+                "text": "Invest heavily in top-tier medical treatment.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Opt for a more moderate treatment plan.",
+                "wealth": -1,
+                "happiness": -1
+            },
+            {
+                "text": "Ignore medical advice and hope for the best.",
+                "wealth": 1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Elderly care",
+        "description": "As you age, you need assistance with daily activities",
+        "options": [
+            {
+                "text": "Move into a high-end retirement community with comprehensive care.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Hire a live-in caregiver for personalized attention.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Rely solely on family members for support.",
+                "wealth": -1,
+                "happiness": -1
+            }
+        ]
+    },
+    {
+        "title": "Legacy choices",
+        "description": "You're making decisions about your will and estate planning. What do you do?",
+        "options": [
+            {
+                "text": "Leave a significant portion of your wealth to charitable causes.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Prioritize leaving a financial legacy for your descendants.",
+                "wealth": 1,
+                "happiness": 1
+            },
+            {
+                "text": "Spend your wealth on fulfilling lifelong dreams and experiences.",
+                "wealth": -1,
+                "happiness": 1
+            }
+        ]
+    },
+    {
+        "title": "End-of-Life Care",
+        "description": "You're facing terminal illness and must decide on your end-of-life care",
+        "options": [
+            {
+                "text": "Pursue aggressive medical treatment to prolong your life.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Choose palliative care for comfort and quality of life.",
+                "wealth": -1,
+                "happiness": 1
+            },
+            {
+                "text": "Reject medical intervention and focus on quality time with loved ones.",
+                "wealth": 1,
+                "happiness": 1
+            }
+        ]
+    }
+]
